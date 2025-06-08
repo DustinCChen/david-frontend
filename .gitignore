@@ -8,3 +8,9 @@ tmp/
 temp/
 converage/*
 /dist/*
+dist/
+coverage/
+.vscode/
+.idea/
+.DS_Store
+*.swp
