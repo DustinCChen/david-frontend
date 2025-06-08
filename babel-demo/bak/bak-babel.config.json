@@ -1,0 +1,17 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      // 按需加载
+      // 使用 core-js 3
+      // 这将确保只引入需要的 polyfills
+      // entry 手动引入
+      {
+        "useBuiltIns": "usage",
+        "corejs": 3
+      }
+    ],
+    ["@babel/preset-react"]
+  ],
+  "plugins": []
+}

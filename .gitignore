@@ -1,0 +1,10 @@
+/node_modules/*
+node_modules/
+*-lock.yml
+*-lock.yaml
+*.log
+build/
+tmp/
+temp/
+converage/*
+/dist/*
